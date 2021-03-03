@@ -4,8 +4,7 @@
   "description": "learning Typescript by creating a Blockchain",
   "main": "index.js",
   "scripts": {
-    "prestart": "tsc",
-    "start" : "node index.js"
+    "start": "tsc-watch --onSuccess \" node dist/index.js \""
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/aroundthistime/typescript_blockchain/issues"
   },
-  "homepage": "https://github.com/aroundthistime/typescript_blockchain#readme"
+  "homepage": "https://github.com/aroundthistime/typescript_blockchain#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.2.2"
+  }
 }
