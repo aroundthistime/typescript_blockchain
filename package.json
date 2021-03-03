@@ -1,0 +1,20 @@
+{
+  "name": "typescript_blockchain",
+  "version": "1.0.0",
+  "description": "learning Typescript by creating a Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aroundthistime/typescript_blockchain.git"
+  },
+  "author": "aroundthistime",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aroundthistime/typescript_blockchain/issues"
+  },
+  "homepage": "https://github.com/aroundthistime/typescript_blockchain#readme"
+}
