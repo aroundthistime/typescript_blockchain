@@ -1,12 +1,20 @@
-const name = "aroundthistime",
-    age = 25,
-    isMale = true;
+interface Human {
+    name : string,
+    age : number,
+    isMale : boolean
+}
 
-const sayHi = (name:string, age:number, isMale?:boolean):boolean => {
-    console.log(`Hello ${name}! - ${age}, you are ${isMale ? "man" : "woman"}`);
+const person = {
+    name : "aroundthistime",
+    age : 25,
+    isMale : true
+}
+
+const sayHi = (person : Human):boolean => {
+    console.log(`Hello ${person.name}! - ${person.age}, you are ${person.isMale ? "man" : "woman"}`);
     return true;
 }
 
-sayHi(name, age, isMale);
+sayHi(person);
 
 export {};
